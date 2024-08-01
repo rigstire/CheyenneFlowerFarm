@@ -14,19 +14,20 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 
+                <h1
                   className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
                   style={{ fontSize: "48px" }} // Adjust the font size as needed
                 >
                   Cheyenne Flower Farm LLC
                 </h1>
-                <p 
+                <p
                   className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl"
                   style={{ fontSize: "32px" }} // Adjust the font size as needed
                 >
-                  Experience the vibrant colors and delightful scents of Cheyenne's very own flower farm! At Cheyenne Flower Farm, we take pride in growing the freshest, most beautiful flowers right here in the heart of Wyoming. Our locally grown blooms are perfect for any occasion, from celebrations and anniversaries to simple acts of kindness.
+                  Experience the vibrant colors and delightful scents of Cheyenne&apos;s very own flower farm! At Cheyenne Flower Farm, we take pride in growing the freshest, most beautiful flowers right here in Cheyenne, Wyoming&apos;s capitol city. Our locally grown blooms are perfect for any occasion, from celebrations and anniversaries to simple acts of kindness.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  {/* Add any buttons or links here if needed */}
                 </div>
               </div>
             </div>

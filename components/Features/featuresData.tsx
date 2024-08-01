@@ -1,10 +1,18 @@
+import Image from "next/image";
 import { Feature } from "@/types/feature";
 
 const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img src="/images/newcosmos.jpg" alt="Cosmos" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/newcosmos.jpg" 
+        alt="Cosmos" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Cosmos",
     paragraph:
@@ -13,7 +21,14 @@ const featuresData: Feature[] = [
   {
     id: 2,
     icon: (
-      <img src="/images/hqcelosias.jpg" alt="Celosias" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/hqcelosias.jpg" 
+        alt="Celosias" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Celosias",
     paragraph:
@@ -22,7 +37,14 @@ const featuresData: Feature[] = [
   {
     id: 3,
     icon: (
-      <img src="/images/daucus.jpeg" alt="Daucus" style={{width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/daucus.jpeg" 
+        alt="Daucus" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),  
     title: "Daucus",
     paragraph:
@@ -31,7 +53,14 @@ const featuresData: Feature[] = [
   {
     id: 4,
     icon: (
-      <img src="/images/lisianthus.jpg" alt="Lisianthus" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/lisianthus.jpg" 
+        alt="Lisianthus" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Lisianthus",
     paragraph:
@@ -40,7 +69,14 @@ const featuresData: Feature[] = [
   {
     id: 5,
     icon: (
-      <img src="/images/newsnapdragons.jpg" alt="Snapdragons" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/newsnapdragons.jpg" 
+        alt="Snapdragons" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Snapdragons",
     paragraph:
@@ -49,7 +85,14 @@ const featuresData: Feature[] = [
   {
     id: 6,
     icon: (
-      <img src="/images/zinnias.jpg" alt="Zinnias" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/zinnias.jpg" 
+        alt="Zinnias" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Zinnias",
     paragraph:
@@ -58,16 +101,30 @@ const featuresData: Feature[] = [
   {
     id: 7,
     icon: (
-      <img src="/images/newyarrow.jpg" alt="Yarrow" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/newyarrow.jpg" 
+        alt="Yarrow" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
-    title: " Yarrow",
+    title: "Yarrow",
     paragraph:
       "Yarrow boasts feathery foliage and vibrant clusters of blooms, offering beauty and resilience to bouquets.",
   },
   {
     id: 8,
     icon: (
-      <img src="/images/newsweatpea.jpg" alt="Sweet Peas" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/newsweatpea.jpg" 
+        alt="Sweet Peas" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Sweet Peas",
     paragraph:
@@ -76,11 +133,18 @@ const featuresData: Feature[] = [
   {
     id: 9,
     icon: (
-      <img src="/images/dhalias.jpg" alt="Dahlias" style={{ width: '600px', height: '500px', objectFit: 'cover' }} className="fill-current" />
+      <Image 
+        src="/images/dhalias.jpg" 
+        alt="Dahlias" 
+        width={600} 
+        height={500} 
+        style={{ objectFit: 'cover' }} 
+        className="fill-current" 
+      />
     ),
     title: "Dahlias",
     paragraph:
-      "Vibrant and intricate, Dahlias come in a range of colors, adding elegance and sophistication to any bouquet",
+      "Vibrant and intricate, Dahlias come in a range of colors, adding elegance and sophistication to any bouquet.",
   },
 ];
 
